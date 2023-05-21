@@ -1,0 +1,166 @@
+
+.container-desc {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+/*En tête (résumé)*/
+.image-princ {
+ width: 15%;
+ height: 15%;
+  box-shadow: 0px 4px 4px rgb(0, 0, 0);
+  margin-right: 5px;
+  border-radius: 20px;
+  margin-right: 60px;
+}
+
+.text-princ {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+
+.pa a {
+  text-decoration: none;
+}
+
+.pa {
+  font-size: 1rem;
+}
+
+
+/*title avis voyage*/
+
+.title {
+  background-color: #ffffff4c;
+  padding: 10px;
+  border-radius: 20px;
+  border-bottom: 3px solid #FFFFFF;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 150px;
+  font-size: large;
+
+}
+.avis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.item {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.item-large {
+  width: 65%;
+  max-width: 900px;
+  min-width: 350px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px white;
+  margin-bottom: 20px;
+}
+
+.item-large:hover {
+background-color: rgba(255, 124, 9, 0.1);
+  box-shadow: 0 0 7px rgb(254, 212, 195);
+  transition: all 0.2s ease-in-out;
+  border-radius: 20px;
+}
+
+.item-large .image {
+  justify-content: flex-start;
+}
+
+.image img {
+  width: 20%;
+}
+.image p {
+  width: 80%;
+  font-size: large;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+
+.item-large .description {
+ display: flex;
+ flex-direction: column;
+}
+.titre_note{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.com-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: x-small;
+  font-weight: bold;
+  margin-top:10%;
+}
+.com-bottom p {
+  background-color: #484848e3;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+
+/*RS*/
+
+.title {
+  color: #FFFFFF;
+  font-size: large;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-media-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.social-media-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 130px;
+  margin: 10px;
+}
+
+.social-media-container a img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: grayscale(100%) brightness(70%);
+  transition: filter 0.3s ease-in-out;
+  box-shadow: 0 5px 10px rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+.social-media-container a:hover img {
+  filter: none;
+}
+

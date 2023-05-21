@@ -1,0 +1,59 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styles pour chaque ship */
+.ship {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.ship-info {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #fff;
+  box-shadow: 0  3px 5px rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.ship-info h2.nom-ship {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ship-info p.description-ship {
+  font-size: 14px;
+  color: #666;
+}
+
+.ship .img-ship img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0 3px 5px rgb(0, 0, 0);
+}
+
+/* Alignement alternatif des images */
+.ship:nth-child(even) .img-ship {
+  order: 2;
+  margin-left: auto;
+}
+
+/* Alignement alternatif des textes */
+.ship:nth-child(odd) .ship-info {
+  order: 2;
+  margin-right: auto;
+}

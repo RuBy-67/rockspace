@@ -1,0 +1,189 @@
+  main {
+    margin-top: 50px;;
+    margin-bottom: 50px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .nom {
+    width:75%;
+  }
+  .img1 {
+    width: 5%;
+  }
+    .prix1 {
+      width: 10%;
+    }
+
+  .quant {
+    width: 10%;
+  }
+    .prix2 {
+      width: 10%;
+    }
+.bottom {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+  .bottom img {
+    width: 20px;
+    height: 20px;
+    
+  }
+
+.prix-total {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    color: #dddddd;
+    margin-right: 30px;
+    background-color: #dddddd2a;
+    border-radius: 20px;
+    padding:5px;
+}
+
+  .quantite-input {
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    font-family: 'Nova Square', cursive;
+  }
+    .quantite-input:focus {
+      outline: none;
+        border: 2px solid #fbb843;
+    }
+
+  .panier {
+    margin-top: 15px;
+    color:#f2f2f2;
+  }
+
+  .hotel {
+     width: 80px;
+     height: auto;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+  }
+
+
+
+  .prix {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .prix img {
+    height: 20px;
+    width: 20px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+    .command {
+    background-color: #590cff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    font-family: 'Nova Square', cursive;
+  }
+
+  .command:hover {
+    background-color: #6100bb;
+  }
+
+  .del {
+    background-color: transparent;
+      transition: background-color 0.3s ease;
+      margin: 2px;
+      color: #dddddd;
+      font-family: 'Nova Square', cursive;
+  }
+  .del:hover {
+    background-color: #ff1b1b59;
+  }
+
+  .maj {
+    background-color: transparent;
+      transition: background-color 0.3s ease;
+      margin: 2px;
+      color: #dddddd;
+      font-family: 'Nova Square', cursive;
+  }
+
+ .maj:hover {
+  background-color: #0c7a22;
+ }
+
+  p {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .code_p {
+    color: #dddddd;
+  }
+  .code_p span {
+    color: #690087;
+  }
+.code-input {
+  width: 120px;
+  height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    font-family: 'Nova Square',cursive;
+}
+
+.code-input:focus {
+  outline: none;
+    border: 2px solid #fbb843;
+}
+
+.code-submit {
+  background-color: #590cff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    font-family: 'Nova Square', cursive;
+}
+
+.code-submit:hover{
+  background-color: #6100bb;
+}
+    
+
+

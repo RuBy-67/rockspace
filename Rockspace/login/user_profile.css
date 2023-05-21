@@ -1,0 +1,157 @@
+
+main {
+  font-family: 'Nova Square', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  background-color: #ffffff4c;
+  padding: 5px;
+  border-radius: 20px;
+  border-bottom: 3px solid #FFFFFF;
+  color: #FFFFFF;
+  text-align: center;
+  max-width: 150px;
+  font-size: large;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  width: 100%;
+}
+
+
+/* Form */
+
+.modif {
+  display: flex;
+  flex-direction: column;
+}
+
+.col {
+  flex-direction: row;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.input-modif {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: 'Nova Square', cursive;
+  font-weight: bold;
+}
+
+.input-modif-eth {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: 'Nova Square', cursive;
+  font-weight: bold;
+}
+
+.input-modif:focus {
+  outline: none;
+  border: 3px solid #fbb843;
+}
+
+.input-modif-eth:focus {
+  outline: none;
+  border: 3px solid #fbb843;
+}
+
+.preview {
+  width: 150px;
+  height: auto;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 15px;
+  box-shadow: 0 5px 10px rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0px 0px 6px 2px #FC8F3A;
+  padding: 5px;
+  border:#000000 1px solid;
+  border-radius: 20px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-family: 'Nova Square', cursive;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+  align-self: flex-end;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 6px 5px #FC8F3A;
+}
+
+.commande {
+  margin-top: 50px;
+  font-family: 'Nova Square', cursive;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 10px;
+  padding:10px;
+}
+
+.commande-list {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.commande-list a {
+  color: #c08300;
+  text-decoration: none;
+}
+
+.commande-list a:hover {
+  text-decoration: underline;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+  .row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .col {
+    flex: 0 0 48%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .preview {
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+}

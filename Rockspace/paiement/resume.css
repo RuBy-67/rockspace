@@ -1,0 +1,157 @@
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f2f2f2;
+  text-decoration: underline;
+}
+
+
+/* Styles spécifiques */
+
+/* Coordonnées du client */
+.client {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.client td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.client tr:first-child {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.client tr {
+  background-color: #f9f9f9;
+}
+
+.client tr:hover {
+  background-color: #eaeaea;
+}
+/* Moyen de paiement */
+.payment-method {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+ .input {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Panier */
+.cart {
+  width: 100%;
+    border-collapse: collapse;
+}
+
+.cart tr:first-child {
+  font-weight: bold;
+    background-color: #f2f2f2;
+}
+.cart tr {
+  background-color: #f9f9f9;
+}
+
+.cart td {
+  padding: 10px;
+    border: 1px solid #ccc;
+}
+.cart tr:hover {
+  background-color: #eaeaea;
+}
+.cart .img {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+.cart .img img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 5px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgb(0, 0, 0);
+  transition: transform 0.4s ease-in-out;
+    transform-origin: 100% 100%;
+    margin-top: 5px;
+}
+
+.cart .img img:hover {
+  transform: scale(2.5);
+}
+
+.cart p {
+  margin: 10px 0;
+}
+
+/*date*/
+table.date {
+  width: 500px;
+  border-collapse: collapse;
+}
+
+table.date th,
+table.date td {
+  padding: 8px;
+  text-align: left;
+  color: #f2f2f2;
+}
+
+.choix {
+  padding: 6px 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+p {
+  margin-bottom: 10px;
+  color: #eaeaea;
+}
+
+p.code-promo {
+  font-weight: bold;
+  
+}
+
+p.total-amount {
+  font-weight: bold;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.command {
+  display: inline-block;
+  text-align: center;
+  width: 190px ;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #a012ff;
+  border-radius: 20px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.command:nth-child(2) {
+    background-color: #f8783c;
+    margin-bottom: 20px;
+}
+.command:nth-child(2):hover {
+  background-color: #ff5900;
+}
+.command:hover {
+  background-color: #7d00c6;
+}
